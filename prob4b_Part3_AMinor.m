@@ -3,7 +3,7 @@
 % Author: Raymart Jay E. Canoy
 % Student ID #: 2020021376
 
-%% Part 3: A Major
+%% Part 3: A Minor
 clear; clc;
 
 fs = 48000;                 % Accepted framerate for the audiowrite function
