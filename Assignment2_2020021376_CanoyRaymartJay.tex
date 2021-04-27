@@ -60,7 +60,9 @@ The response of a system to an arbitrary input signal $x(t)$ can be calculated b
 \begin{figure}[h!]
 \center{\includegraphics[width=12cm]{prob1a_convolution.png}}
 \end{figure}
-\vspace{0.0001cm} \\
+\begin{figure}[h!]
+\center{\includegraphics[width=12cm]{prob1a_convolution.png}}
+\end{figure} \\
 \noindent\textcolor{red}{\textbf{CTFT}}\\
 In the Fourier-domain, the response of a system to an arbitrary input signal $x(t)$ can be calculated by taking the inverse Fourier transform of the product of the Fourier transforms of the input signal and the impulse response, that is, $y(t) = \mathcal{F}^{-1}\{Y(f)\} = \mathcal{F}^{-1}\{X(f)H(f)\}$.
 \begin{figure}[h!]
@@ -125,8 +127,8 @@ where $T_{s} = 1/f_{s}$ is chosen such that the signal $x(t)$ does not change mu
 \end{equation}
 
 \begin{figure}[h!]
-\center{\includegraphics[width=5cm]{prob1e_cosine.png}}
-\caption{The CTFT of $\cos (2 \pi f_{0} t)$}
+\center{\includegraphics[width=5cm]{prob1e_sine.png}}
+\caption{The CTFT of $\sin (2 \pi f_{0} t)$}
 \end{figure}
 \end{itemize}
 
@@ -494,6 +496,20 @@ t(1-t), & 0 < t < 1 \\
 
 \begin{tcolorbox}[enforce breakable, pad at break = 1mm, break at=23cm,title={Source Code}]
 \lstinputlisting[language=Matlab, upquote=true]{prob3b_2.m}
+\end{tcolorbox}
+
+\vspace{2cm}
+\begin{tcolorbox}[title={\textbf{Note: All the files were uploaded on GitHub}}]
+All the files in this document were uploaded on Github, and can be accessed at:
+
+
+\begin{center}
+\url{https://github.com/rjcanoy03/BRI509/tree/Assignment%232}
+\end{center}
+
+
+If there are errors in the solution or codes kindly email, $\\$
+recanoy@korea.ac.kr.
 \end{tcolorbox}
 \end{itemize}
 \end{itemize}
